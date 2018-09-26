@@ -149,7 +149,7 @@ public class Controller {
 
 		mf.ShowtextArea.append('\n' + "Data matrix has " + rows + " taxa, " + cols + " characters" + '\n'
 				+ "Valid character-state symbols: 012345" + '\n' + "Missing data identified by '?'" + '\n'
-				+ "Gaps identified by 'N'" + '\n');
+				+ "Gaps identified by '-'" + '\n');
 		mf.ShowtextArea.append('\n' + "Processing of input file " + file.getAbsolutePath() + " completed."+'\n');
 
 		//物种矩阵初始化
@@ -211,7 +211,7 @@ public class Controller {
 
 		mf.ShowtextArea.append('\n' + "Adjacency matrix has "  + cols + " characters" + '\n'
 				+ "Valid character-state symbols: 012345" + '\n' + "Missing data identified by '?'" + '\n'
-				+ "Gaps identified by 'N'" + '\n');
+				+ "Gaps identified by '-'" + '\n');
 		mf.ShowtextArea.append('\n' + "Processing of input file " + file.getAbsolutePath() + " completed."+'\n');
 
 
@@ -321,7 +321,7 @@ public class Controller {
 					mf.ShowtextArea.append("?");
 				}
 				else if(data.get(i).dataMat[j] == -1){
-					mf.ShowtextArea.append("N");
+					mf.ShowtextArea.append("-");
 				}else{
 					mf.ShowtextArea.append(String.valueOf(data.get(i).dataMat[j]));
 				}
@@ -361,7 +361,7 @@ public class Controller {
 					mf.ShowtextArea.append("?");
 				}
 				else if(adjacency.get(i).dataMat[j] == -2){
-					mf.ShowtextArea.append("N");
+					mf.ShowtextArea.append("-");
 				}else{
 					mf.ShowtextArea.append(String.valueOf(adjacency.get(i).dataMat[j]));
 				}
