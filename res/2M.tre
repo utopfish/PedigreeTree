@@ -1,0 +1,45 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved2018-03-19 10:42:18]
+[!
+>Data file = C:\Users\חקחקחקחקzy\Desktop\PedigreeTree\res\2M.txt
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 51 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        4 characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 34
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = 1058963645
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>Search terminated prematurely (no room to store new trees)
+>   1 trees retained
+>   Time used = 3.87 sec
+]
+	Translate
+		1 1Tubiluchus_priapulida,
+		2 9Microdictyon,
+		3 11Hallucigenia_sparsa,
+		4 14Luolishania,
+		5 30Kerygmachela,
+		6 32Opabinia,
+		7 33Anonalocaris,
+		8 35Hurdia,
+		9 38Fuxianhuia,
+		10 40Leanchoilia
+		;
+tree PAUP_1 = [&U](((1,(9,10)),(6,(7,8))),(((2,3),4),5));
+End;

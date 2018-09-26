@@ -1,0 +1,76 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved2018-03-19 10:50:49]
+[!
+>Data file = C:\Users\חקחקחקחקzy\Desktop\PedigreeTree\res\Mujin_1I.txt
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 38 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        4 characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 34
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = 1058963645
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>Search terminated prematurely (no room to store new trees)
+>   1 trees retained
+>   Time used = 3.87 sec
+]
+	Translate
+		1 H.macrophyllusRoxb,
+		2 H.tiliaceusLinn.,
+		3 H.ela_tusSw,
+		4 H.grewiifoliusHassk.,
+		5 H.austro_yunnanensis,
+		6 H.aridicolavar.aridicola,
+		7 H.aridicolavar.glabratusFeng,
+		8 H.hamaboSiebe.tZucc,
+		9 H.schizopetalus,
+		10 H.rosa_sinensisvar.rosa_sinensis,
+		11 H.rosa_sinensisvar.rubro_plenusSweet,
+		12 H.paramutabilisvar.paramutabilis,
+		13 H.paramutabilisvar.longipedicellatusFeng,
+		14 H.indicusvar.indicus,
+		15 H.indicusvar.integrilobus,
+		16 H.taiwanensis.,
+		17 H.mutabilisLinn.,
+		18 H.vidalia_nusNavesexVidal,
+		19 H.labordeiLewl.,
+		20 H.syriacusvar.syriacus,
+		21 H.syriacusvar.lon_gibracteatussyhu,
+		22 H.syriacusvar.brevibracteatussthu,
+		23 H.yriacus.f.albu_plenus,
+		24 H.syriacusf.amplissimus,
+		25 H.syriacusf.elegantissimus,
+		26 H.syriacusf.grandiflorus,
+		27 H.syriausf.paeoniflorus,
+		28 H.syriacusf.violaceus,
+		29 H.syriacusf.to_toalbus,
+		30 H.sinosyriacusBailey,
+		31 H.leio_spermuskTFu,
+		32 H.coccine_usMedicusWalt,
+		33 H.moscheutosLinn,
+		34 H.yunnanensissyhu,
+		35 H.surattensisLinn,
+		36 H.radiatusCavan,
+		37 H.trionumLinn,
+		38 H.sabdariffaLinn,
+		39 H.cannabinusLinn,
+		40 H.lobatus.Kuntze,
+		41 Alcea_rosea
+		;
+tree PAUP_1 = [&U](((1,(9,10)),(6,(7,8))),(((2,3),4),5));
+End;
