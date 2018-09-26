@@ -138,14 +138,14 @@ public class MainFrame {
 		});
 		mnFile.add(mntmNextTextFile);
 		
-		JMenuItem mntmOpen = new JMenuItem("Open Character Matrix");
+		JMenuItem mntmOpen = new JMenuItem("Open Matrix");
 		mntmOpen.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				con.openFile();
 			}
 		});
 		mnFile.add(mntmOpen);
-		JMenuItem mntmOpenAdjacency = new JMenuItem("Open Adjacency Matrix");
+		JMenuItem mntmOpenAdjacency = new JMenuItem("Open Character hierarchy Matrix");
 		mntmOpenAdjacency.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				con.openAdjacencyFile();
@@ -191,7 +191,7 @@ public class MainFrame {
 		JMenu mnData = new JMenu("Data");
 		menuBar.add(mnData);
 		
-		JMenuItem mntmShowDataMatrix = new JMenuItem("Show Data Matrix");
+		JMenuItem mntmShowDataMatrix = new JMenuItem("Show Matrix");
 		mntmShowDataMatrix.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				con.ShowDataMat();
@@ -199,7 +199,7 @@ public class MainFrame {
 		});
 		mnData.add(mntmShowDataMatrix);
 		
-		JMenuItem mntmShowAdjacencyMatrix = new JMenuItem("Show Adjacency Matrix");
+		JMenuItem mntmShowAdjacencyMatrix = new JMenuItem("Character hierarchy Matrix");
 		mntmShowAdjacencyMatrix.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				con.ShowAdjacencyMat();
